@@ -1,8 +1,13 @@
 #include <iostream>
 
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!" << std::endl;
+int main(){
+    int a,b;
+    cout<<"a=";
+    cin>>a;
+    cout<<"b=";
+    cin>>b;
+    cout<<"a*b="<<a*b<<endl;
     return 0;
 }
